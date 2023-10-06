@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>CONVERSOR DE MOEDAS</h1>
+    </header>
+    <div id="img_logo">
+        <img id="oi" src="./assets/bitcoin-animate (1).svg" alt="logo_do_site_bitcoin">
+       
+    </div>
+   
+        
+    <main>
+           <label >
+                <p>Converter <b>de:</b> </p>
+                <select id="converter-de">
+                   <option value="real-de">R$ Real Brasileiro</option>
+                   <option value="dolar-de">US$ Dolar Americano</option>
+                   <option value="euro-de">€ Euro</option>
+                   <option value="libra-de">£ Libra</option>
+                </select>
+            </label>
+    
+            <label >
+                <p>Converter <b>para:</b> </p>
+                <select id="select-converter" >
+                   <option value="dolar">US$ Dolar Americano</option>
+                   <option value="euro">€ Euro</option>
+                   <option value="libra">£ Libra</option>
+                   <option value="real">R$ Real Brasileiro</option>
+                   
+                </select>
+            </label>
+    
+            <label>
+                <p>Valor:</p>
+                <input id="input-value" placeholder="R$ 10.000,00">
+            </label>
+            <br>
+            <br>
+            <button id="convert-button">Converter</button>
+    
+            <section>
+                <div>
+                    <img id="photo-De"  src="./assets/brasil 2.png" alt="bandeira do brasil">
+                    <p id="paragraph-De" class="paragrafo1">Real</p>
+                    <p id="value-convert" class="paragrafo2">valor</p>
+                </div>
+    
+                <div id="arrow">
+                    <img  src="./assets/seta.png" alt="seta para baixo">
+                </div>
+                                        
+                <div  >
+                    <img id="conversion-image" src="./assets/estados-unidos (1) 1.png" alt="bandeira dos estados unidos">
+                    <p id="paragraph-name-country" class="paragrafo1">Dolar</p>
+                    <p id="converted-value" class="paragrafo2">valor</p>
+                </div>
+            </section>
+            
+        
+        
+    </main>  
+</body>
+<script src="./script.js"></script>
+</html>
